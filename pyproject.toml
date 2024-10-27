@@ -1,0 +1,19 @@
+[project]
+name = "AutoGEN-struct-resp"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Abhimanyu Aryan", email = "8083613+AbhimanyuAryan@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
